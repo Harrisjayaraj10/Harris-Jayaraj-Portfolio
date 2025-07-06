@@ -25,3 +25,37 @@ html {
   background-color: #0d6efd; /* Bootstrap primary blue */
   border-color: #0d6efd;
 }
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #333;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-icon.facebook:hover {
+  background-color: #1877f2;
+}
+
+.social-icon.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icon.github:hover {
+  background-color: #333;
+}
