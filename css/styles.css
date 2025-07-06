@@ -59,3 +59,22 @@ html {
 .social-icon.github:hover {
   background-color: #333;
 }
+.social-icon svg {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.social-icon.x-twitter:hover {
+    background-color: #000; /* X brand black */
+}
+
+.social-icon.x-twitter img {
+    transition: transform 0.3s ease;
+}
+
+.social-icon.x-twitter:hover img {
+    transform: scale(1.2);
+}
+
+
+
