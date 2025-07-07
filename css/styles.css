@@ -76,5 +76,24 @@ html {
     transform: scale(1.2);
 }
 
+.carousel-inner img {
+    max-height: 450px; /* Adjust as you prefer */
+    object-fit: contain;
+}
 
+.achievement-img {
+    width: 100%; /* ensures full column width responsiveness */
+    max-width: 280px; /* fixed clean max size */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto; /* center the image */
+    display: block;
+}
+
+.achievement-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
 
